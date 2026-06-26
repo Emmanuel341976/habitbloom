@@ -1,6 +1,14 @@
-body{
+h1, h2, h3, h4, h5, h6, p, ul, ol, body{
 	margin: 0;
 	font-family: 'Abel', sans-serif;
+}
+ul, ol{
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
 }
 
 button{
@@ -8,3 +16,8 @@ button{
 		background: unset;
 		border: none;
 	}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
